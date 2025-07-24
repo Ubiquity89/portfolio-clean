@@ -19,11 +19,11 @@ export const workSlider = {
             "Seamless code tracking experience for different platforms    in just one click.",
         },
         {
-          title: "3D Experience",
-          path: "/thumb2.jpg",
-          link: "",
+          title: "ContentCrafter",
+          path: "/thumb2.png",
+          link: "https://contentttaiii.netlify.app",
           description:
-            "A 3D experience that allows users to explore and interact with a virtual world.",
+            "Helps users generate text into different formats in one click",
         },
         {
           title: "PORTFOLIO",

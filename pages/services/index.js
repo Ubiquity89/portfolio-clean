@@ -33,7 +33,7 @@ const Services = () => {
             >
               I specialize in delivering high-quality solutions tailored to your
               needs. Whether you need a stunning website, interactive UI, robust
-              backend, or seamless user experience, I've got you covered!
+              backend, or seamless user experience, I&apos;ve got you covered!
             </motion.p>
           </div>
           {/* slider */}

@@ -15,22 +15,22 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiMongodb />,
-          <FaNode />,
-          <SiExpress />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiMongodb key="mongo" />,
+          <FaNode key="node" />,
+          <SiExpress key="express" />,
         ],
       },
       {
         title: "Java",
-        icons: [<FaJava />],
+        icons: [<FaJava key="java1" />],
       },
       {
         title: "DSA",
-        icons: [<FaJava />],
+        icons: [<FaJava key="java2" />],
       },
     ],
   },
@@ -98,12 +98,14 @@ const aboutData = [
         stage: "2 months",
       },
       {
-        title: " Freelance Graphic Designer- Okta",
+        title: "Freelance Graphic Designer- Okta",
         stage: "1 month",
+        id: 1
       },
       {
-        title: " Freelance Graphic Designer- PulseProMedia",
+        title: "Freelance Graphic Designer- PulseProMedia",
         stage: "1 month",
+        id: 2
       },
     ],
   },
@@ -133,6 +135,7 @@ import { fadeIn } from "../../variants";
 
 //counter
 import CountUp from "react-countup";
+
 const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
@@ -218,10 +221,10 @@ const About = () => {
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item, itemIndex) => {
+            {aboutData[index].info.map((item, infoIndex) => {
               return (
                 <div
-                  key={itemIndex}
+                  key={infoIndex}
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
                   {/* title */}
@@ -230,9 +233,9 @@ const About = () => {
                   {item.stage && <div>{item.stage}</div>}
                   <div className="flex gap-x-4">
                     {/* icons */}
-                    {item.icons?.map((icon, itemIndex) => (
+                    {item.icons?.map((icon, iconIndex) => (
                       <div
-                        key={itemIndex}
+                        key={iconIndex}
                         className="text-2xl text-white flex items-center hover:text-red-500"
                       >
                         {icon}

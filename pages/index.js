@@ -37,12 +37,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            I'm a BTech CSE student and a passionate web developer with a keen
-            interest in frontend and backend technologies.I enjoy building
+            I&apos;m a BTech CSE student and a passionate web developer with a keen
+            interest in frontend and backend technologies. I enjoy building
             engaging and user-friendly web applications. Apart from web
-            development, I'm actively involved in competitive programming and
-            DSA, always striving to optimize my problem-solving skills. When I'm
-            not coding, you’ll find me exploring AI, cloud computing, and
+            development, I&apos;m actively involved in competitive programming and
+            DSA, always striving to optimize my problem-solving skills. When I&apos;m
+            not coding, you&apos;ll find me exploring AI, cloud computing, and
             open-source contributions. I also love participating in tech events
             and hackathons to learn, collaborate, and grow.
           </motion.p>

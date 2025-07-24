@@ -217,7 +217,7 @@ const Certifications = () => {
         {/* View Resume Button */}
         <div className="absolute top-0 right-0 mt-8 mr-8 z-50">
           <Link
-            href="/resume"
+            href="/resume.pdf"
             className="px-6 py-3 border border-white/70 text-white/90 rounded-md backdrop-blur-md transition duration-300 hover:text-white hover:border-white hover:scale-105 cursor-pointer"
           >
             View Resume
