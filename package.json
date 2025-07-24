@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "vercel-build": "next build",
+    "vercel-dev": "next dev"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.11.6",
